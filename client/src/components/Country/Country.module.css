@@ -1,0 +1,86 @@
+.cardCountry {
+    width: 25%;
+    margin: 10px 5px;
+    background-color: #fafafa;
+    border-radius: 15px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.containerImage {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 0;
+
+}
+
+.containerImage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.containerInfoCountry {
+    width: 100%;
+    height: 160px;
+    margin: 0;
+    padding-left: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.containerNameCountry {
+    width: 100%;
+    min-height: 50px;
+    margin: 0;
+}
+
+.containerNameCountry h4 {
+    color: #333;
+    width: 90%;
+    font-size: 16px;
+    word-break: break-word;
+    margin: 5px 0;
+}
+
+.continentName {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #555;
+}
+
+.continentName span{
+    color: #333;
+    font-weight: bold;
+}
+
+.containerInfoCountry .buttonLink {
+        margin-top: 15px;
+        padding: 10px 15px;
+    
+        text-decoration: none;
+        background-color: #3463BB;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        border-radius: 3px;
+    
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    
+        cursor: pointer;
+
+    
+
+}
+
+
+.buttonLink:hover {
+    background-color: #e2a036;
+}

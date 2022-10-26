@@ -1,0 +1,120 @@
+.imageBackgroundWorld {
+    margin-top: -30px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -20;
+    opacity: 0.5;
+}
+
+.containerCountryDetail {
+    margin-top: 30px;
+    padding: 20px 0;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.containerInfoCountry {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.imageFlag {
+    width: 450px;
+    min-height: 300px;
+    border-radius: 5px;
+}
+
+.containerText {
+    padding: 0 30px;
+
+    max-height: 300px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.containerText h2 {
+    max-width: 400px;
+    color: #222;
+    margin: 8px 0;
+    word-break:normal;
+
+}
+
+.containerText h4 {
+    color: #222;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.nameCountry {
+    color: #46d3a7;
+}
+
+.infoTextCountry {
+    font-size: 20px;
+    color: #46d3a7;
+}
+
+.containerActivities {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textActivity {
+    font-size: 40px;
+    color: #222;
+}
+
+.containerAllActivity {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+}
+
+.cardActivity {
+    width: 250px;
+    height: 250px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardActivity h3 {
+    color: #46d3a7;
+    text-decoration-line: underline;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.cardInfoActivity h4 {
+    font-size: 18px;
+    color: #222;
+}
+
+.infoTextActivity {
+    color: #46d3a7;
+}
