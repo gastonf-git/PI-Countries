@@ -82,7 +82,7 @@ const Filters = () => {
     dispatch(sortArea())
   }
 
-  let newbutton = <button onClick={onChangeArea}>Ordernar por Area</button>;
+  let newbutton = <button onClick={onChangeArea}>Sort Area</button>;
 
   return (
     <div className={style.filterContainer}>
@@ -100,7 +100,7 @@ const Filters = () => {
           </select>
           <select name="population" onChange={onSelectSortChange}>
             <option>Population</option>
-            <option value={ASCENDANT}>Acendant</option>
+            <option value={ASCENDANT}>Ascendant</option>
             <option value={DESCENDANT}>Descendant</option>
           </select>
         </div>
@@ -112,7 +112,7 @@ const Filters = () => {
             <option value="South America">South America</option>
             <option value="Asia">Asia</option>
             <option value="Europe">Europe</option>
-            <option value="North America">Nort America</option>
+            <option value="North America">North America</option>
             <option value="Antarctica">Antarctica</option>
             <option value="Africa">Africa</option>
             <option value="Oceania">Oceania</option>

@@ -6,7 +6,7 @@ const axios = require("axios");
 const routerCountries = Router();
 
 routerCountries.get("/", async (req, res, next) => {
-  // Hacemos la petición a la api y luego la filtramos obteniendo solo los datos que nos sirven
+  
     let { data } = await axios.get("https://restcountries.com/v3/all");
     const dataCountriesFiltered = data.map((country) => {
         let subregion;
@@ -26,13 +26,13 @@ routerCountries.get("/", async (req, res, next) => {
             population: country.population,
         };
     });
-    // Insertamos los datos filtrados de la api en la BD
+    
     await Countries.bulkCreate(dataCountriesFiltered, {
         ignoreDuplicates: true,
     });
 
     let name = req.query.name;
-    // Si se realiza una query, entonces se devuelve filtrado y ordenado de forma ascendente
+    
     if(name) {
       try {
         let countries = await Countries.findAll({
@@ -49,7 +49,7 @@ routerCountries.get("/", async (req, res, next) => {
         next(error)
       }
     } else {
-      // Sino, se devuelve la BD completa
+      
       try {
         let countries = await Countries.findAll({
           include: Activities,

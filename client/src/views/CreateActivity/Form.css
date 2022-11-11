@@ -1,0 +1,132 @@
+.danger {
+    color: rgba(255, 0, 0, 0.884);
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 2px;
+    margin-bottom: 2px ;
+   margin-left: 55px;
+  }
+
+  .difficulty-season{
+    display: flex;
+    justify-content: center;
+  }
+  .dif-ses{
+    margin: 60px;
+    border: 1px solid white;
+    border-radius: 3%;
+    cursor: pointer;
+  }
+
+  .select{
+    border: 1px solid white;
+    border-radius: 3%;
+    margin: 60px;
+    cursor: pointer;
+  }
+  .lista{
+      display: flex;
+      font-weight: bold;
+      color: rgb(68, 34, 192);
+  }
+  .newActivity{
+    position: relative;
+    font-size: 1.5rem;
+    top: -30px;
+    text-align: center;
+    color: #4bae8e;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(168, 168, 168, 0.226);
+    backdrop-filter: blur(5px);
+    border-radius: 5%;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+    padding-bottom: 10px;
+    width: 600px;
+    height: 700px;
+    text-decoration: none;
+  }
+
+
+  .activityName{
+      width: 300px;
+    margin-left: 150px;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    font-size: 18px;
+    color: rgb(3, 3, 3);
+    
+  }
+  .activityName:focus, .activityName:active{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+  }
+
+  .divContainer{
+      display: flex;
+      justify-content: center;
+      margin-top: 90px;
+
+  }
+  .countriesList{
+      display: flex;
+    background-color: rgba(128, 128, 128, 0.082);
+    backdrop-filter: blur(5px);
+      border-radius: 5%;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+    padding-bottom: 10px;
+    width: 500px;
+    height: 900px;
+    text-decoration: none;
+  }
+  
+  .closeButton{
+    background: transparent;
+    border: none;
+    position: relative;
+    left: 400px;  
+    top: -21px;
+  }
+  .createActivity{
+    width: fit-content;
+    position: relative;
+    left: 250px;
+    margin-top: 10px;
+    border-radius: 0px;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color:#095fffd3;
+    padding: 10px;
+    transition: .3s;
+    cursor: pointer;
+  }
+  .createActivity:hover{
+    background-color:#0bedfde7;
+    transform: scale(1.1);
+  }
+
+  .mainPageButton{
+    width: fit-content;
+    position: relative;
+    left: 60px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    background-color:#d49d6a62;
+    padding: 5px;
+    transition: .3s;
+    cursor: pointer;
+  }
+  .mainPageButton:hover{
+    background-color:#f6d4b362;
+    transform: scale(1.1);
+  }

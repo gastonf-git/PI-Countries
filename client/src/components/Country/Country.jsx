@@ -15,7 +15,7 @@ const Country = ({ cca3, name, image, continent }) => {
         <p className={style.continentName}>
           Continent: <span>{continent}</span>
         </p>
-        <Link to={`/countries/countrydetail/${cca3}`} className={style.buttonLink}>Ver más</Link>
+        <Link to={`/countries/countrydetail/${cca3}`} className={style.buttonLink}>See More</Link>
       </div>
     </div>
   );
